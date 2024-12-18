@@ -11,8 +11,8 @@ class Writer
     public $headers;
     public $query;
     public $response;
-    public string $apiKey = '6e56df7e4f51555d1f95396da089efad';
-    public string $apiToken = 'ATTA89bc23e5ef0a1edee338871706bba86dcd43c5840dbd013944b0c7b055a9e01a1928E483';
+    public string $apiKey;
+    public string $apiToken;
     public $client;
     public $body;
     public $makeRequest;

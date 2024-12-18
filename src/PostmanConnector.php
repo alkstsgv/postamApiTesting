@@ -18,7 +18,7 @@ class PostmanConnector
     public array $body;
     public array $headers;
     public string $schema = "https://schema.getpostman.com/json/collection/v2.1.0/collection.json";
-    private string $postmanApiKey = "PMAK-675d1389730e2800013d74c5-9170e77729ca91969472bb97c480c6f07c";
+    private string $postmanApiKey;
     public string $base_uri = "https://api.getpostman.com";
     public object $parser;
 
